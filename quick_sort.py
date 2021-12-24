@@ -1,6 +1,5 @@
 # Python3 implementation of QuickSort
 
-
 def partition(start, end, array):
 	pivot_index = start
 	pivot = array[pivot_index]
@@ -42,8 +41,7 @@ def quick_sort(start, end, array):
 		quick_sort(p + 1, end, array)
 		
 # Driver code
-array = [ 10, 7, 5 ]
+array = [100, 10, 7, 5, 25]
 quick_sort(0, len(array) - 1, array)
-
 print(f'Sorted array: {array}')
 

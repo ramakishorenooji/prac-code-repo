@@ -10,5 +10,3 @@ for num in range(low, high + 1):
         else:
             print(num)
 print("process finished in {} seconds".format(time.time() - start_time))
-            
-
